@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Uchen&display=swap");
+body {
+  background-image: url(./img/lista.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Aboreto", cursive, "Uchen", serif;
+}
+h1 {
+  text-align: center;
+  font-size: bold;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.listado {
+  text-align: center;
+  margin: 0px auto;
+  padding: 70px 5px;
+  font-weight: bold;
+  background-color: #ebf5eebb;
+  border: 1px solid #78a1bb;
+  border-radius: 30px;
+  width: 50%;
+}
+label {
+  padding: 10px;
+  font-size: 20px;
+}
+input {
+  font-weight: bold;
+  margin: 0 auto 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 120px;
+  padding: 5px;
+}
+input:focus {
+  background-color: #86cffd9c;
+  color: rgb(4, 0, 255);
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 auto 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 120px;
+  padding: 5px;
+}
+button {
+  width: 20px;
+  padding: 0px;
+  margin: 2px;
+}
+.libre {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #8ecae6;
+  border: 1px solid #023047;
+  color: #1a6a7e;
+  text-align: center;
+  padding: 5px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.libre:hover {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: #219ebc;
+  border: 1px solid #8ecae6;
+  color: #023047;
+  text-align: center;
+  padding: 5px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+span {
+  padding: 0px 3px;
+}
+.cnt-btn {
+  padding: 5px;
+  text-align: center;
+  margin: 0px solid;
+  width: 5%;
+  color: #03045e;
+  background-color: #0096c7;
+  border: 1px solid #90e0ef;
+  transition: 1s all;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.cnt-btn:hover {
+  padding: 5px;
+  text-align: center;
+  margin: 0px solid;
+  width: 5%;
+  color: #03045e;
+  background-color: #90e0ef;
+  border: 1px solid #0096c7;
+  transition: 1s all;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+}
